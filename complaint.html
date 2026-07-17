@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaint Registration</title>
+</head>
+<body>
+
+<center>
+<h2>Online Complaint Registration System</h2>
+<h3>Register Complaint</h3>
+
+<form action="complaint.php" method="post">
+
+Name:<br>
+<input type="text" name="name" required><br><br>
+
+Complaint Type:<br>
+<select name="type">
+    <option>Electricity</option>
+    <option>Water Supply</option>
+    <option>Road Damage</option>
+    <option>Garbage</option>
+</select><br><br>
+
+Complaint Details:<br>
+<textarea name="details" rows="5" cols="30"></textarea><br><br>
+
+<input type="submit" value="Submit Complaint">
+
+</form>
+
+</center>
+
+</body>
+</html>
